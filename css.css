@@ -1,0 +1,15 @@
+figure {
+  display: inline-block;
+  margin: 10px;
+  border: 2px solid #ccc;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+figure:focus,
+figure.hovered {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  background-color: #f0f8ff;
+}
